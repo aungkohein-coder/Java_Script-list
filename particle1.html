@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<style>
+
+</style>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div id="output" class=""></div>
+                <div class="col-12">
+                    <div class="row border border-secondary bg-white w-75 rounded mt-5 p-3 g-3 position-fixed mx-auto"
+                        style="right: 0;left: 0; bottom: 30px;">
+                        <div class="col-12 my-2">
+                            <div class="d-flex justify-content-between">
+                                <label for="" class="text-danger">Say Something</label>
+                                <div>
+                                    Count : <span id="count" class="text-warning">0</span>
+                                </div>
+                            </div>
+                            <textarea name="" id="text" rows="3" class="form-control"></textarea>
+                        </div>
+                        <div class="col">
+                            <div>
+                                <label for="" class="form-label">Font Famaily</label>
+                                <select name="" id="fontfamily" class="form-select">
+                                    <option value="">Select fonts</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div>
+                                <label for="" class="form-label">Select Color</label>
+                                <input type="color" class="form-control form-control-color w-100 " id="color">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div>
+                                <label for="" class="form-label">Font Size</label>
+                                <input type="range" class=" form-range" id="fontsize" min="0" max="100" value="10">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <script src="particle1.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Scada:wght@400;700&display=swap");
+@import url(../node_modules/bootstrap-icons/font/bootstrap-icons.css);
+@import url(../node_modules/animate.css/animate.min.css);
+
+// customized
+$font-family: "Scada", sans-serif;
+$enable-rounded: false;
+
+$form-check-input-bg: #dc3545;
+$form-check-input-checked-bg-color: #198754;
+$input-box-shadow: none;
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: rgba(128, 128, 128, 0.5);
+}
+
+li {
+  transition: 0.3s;
+}
+li:hover {
+  background-color: $gray-400;
+}
+
+

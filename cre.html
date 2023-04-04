@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+</style>
+
+<body>
+    <span>
+        San Kyi Tar Par
+    </span>
+    Hello Min Gar Lar Par
+
+    <ul>
+        <li class="">Apple</li>
+        <li class="">Orange</li>
+        <li class="">Mango</li>
+        <li class="">Banana</li>
+        <li class="">Lemon</li>
+    </ul>
+
+
+    <!-- <script src="createelement.js"></script> -->
+    <script>
+        const textnodes = document.createTextNode("abcd")
+
+        const ul = document.querySelector("ul");
+
+        // ul.append(textnodes);
+        ul.after(textnodes)
+        // ul.before(textnodes)
+    </script>
+</body>
+
+</html>
